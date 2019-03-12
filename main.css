@@ -1,4 +1,6 @@
-
+body{
+    background-image: linear-gradient(to right, rgb(52, 230, 170), rgb(104, 190, 230)); 
+}
 
 .main{
     text-align: center; 
@@ -7,20 +9,30 @@
      
 }
 
-
+#namewashere{
+    font-family: 'Indie Flower', cursive; 
+    font-size: 40px; 
+    color: black; 
+    float: left; 
+    text-shadow: 1px 1px 2px black, 0 0 25px black, 0 0 5px darkblue;
+}
 
 #namepls, #hiname, #welcomeback{
     
     position: fixed; 
-    font-size: 24px; 
-    font-family: sans-serif; 
-    background-color: rgba(230, 164, 140, 0.788); 
-    color: white; 
-    width: 250px; 
-    height: 175px; 
+    font-size: 30px; 
+    font-family: 'Indie Flower', cursive; 
+    background-image: linear-gradient(to right, rgb(52, 230, 170), rgb(104, 190, 230));
+    box-shadow: 20px -10px 20px rgb(87, 85, 85);  
+    color: black;
+    text-shadow: 1px 1px 2px black, 0 0 25px black, 0 0 5px darkblue;  
+    width: 550px; 
+    height: 300px; 
     border-radius: 5%;   
-    padding: 20px;  
-    margin-left: 500px;  
+    padding: 20px;
+    padding-top: 100px;   
+    margin-left: 350px; 
+    margin-top: 50px;  
     z-index: 2;     
 }
 
@@ -44,26 +56,47 @@
     margin-top: 200px; 
     margin-left: 350px; 
     z-index: 0; 
-     
+    box-shadow: -100px 50px 100px rgb(70, 68, 68), 75px 40px 100px  rgb(70, 68, 68), 50px -50px 100px rgb(70, 68, 68), -50px -50px 100px rgb(70, 68, 68);   
 }
+
+.spraycanImg{
+    margin-top: 200px; 
+    margin-right: 100px; 
+    float: right; 
+    transform: rotate(10deg);  
+    z-index: 5; 
+      
+}
+
+
+
+
 
 
 
 #btn{
     width: 75px; 
     height: 40px; 
-    border-radius: 15%; 
-    font-size: 18px; 
+    font-size: 30px; 
+    font-family: 'Indie Flower', cursive; 
+    text-shadow: 1px 1px 2px black, 0 0 25px black, 0 0 5px darkblue;
     margin-top: 10px; 
     cursor: pointer; 
+    background-color: rgb(233, 221, 221); 
+    border: none; 
+    box-shadow: 5px 5px 10px black; 
 }
 
 @keyframes fade{
-    0% {opacity: 0}; 
+    0% {opacity: 0} 
     25% {opacity: 1}
     50% {opacity: 1}
-    100% {opacity: 0}; 
+    100% {opacity: 0} 
 }
+
+
+
+
 
 
 
