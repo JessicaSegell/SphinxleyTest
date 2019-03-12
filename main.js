@@ -6,6 +6,7 @@ function welcome() {
         namepls.style.display = "none";
         welcomeback.style.display = "block";
         document.getElementById("user").innerHTML = `${name}`;
+        document.getElementById("namewashere").innerHTML = `${name} was here...`; 
     }
     else {
         namepls.style.display = "block";
